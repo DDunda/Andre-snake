@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Andre.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="NineSlice.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureAtlas.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SDLpp)\src\SDL.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Andre.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Direction.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="NineSlice.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureAtlas.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="WeightedArray.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="sky_gradient.png" />
+    <CopyFileToFolders Include="spritesheet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{b48f6a7b-8c15-46d7-9eea-f9840adaf42d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{ee4f6ded-7b1a-4d5b-8303-7685bb862ada}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
